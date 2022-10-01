@@ -14,13 +14,20 @@ Actions     :
 
 const BASE_URL = "https://api.qrserver.com/v1/create-qr-code/?size=150x150&data="
 
+const param = args.widgetParameter;
+const gradient = new LinearGradient();
+gradient.colors = [new Color('#3f5efb'), new Color('#fc466b')];
+gradient.locations = [1,0];
+gradient.startPoint = new Point(1,1);
+gradient.endPoint = new Point(0,0);
+
 const code = await fetchQrCode();
 const widget = createWidget(code);
 Script.setWidget(widget);
 Script.complete();
 
-async function fetchQrCode(code) {
-  const url = `${BASE_URL}${code}`;
+async function fetchQrCode() {
+  const url = `${BASE_URL}${param}`;
   
   try {
     const req = new Request(url);
@@ -35,6 +42,8 @@ async function fetchQrCode(code) {
 
 function createWidget(code) {
   const widget = new ListWidget();
-  widget.backgroundImage = code;
+  widget.backgroundGradient = gradient;
+  widget.addImage(code);
+  widget.setPadding(10, 15, 15, 10);
   return widget;
 }
