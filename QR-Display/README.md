@@ -29,7 +29,7 @@ I am annoyed to tell every visitor my WiFi password. With this widget I can shar
 <br/>
 
 ## ✍️ Feedback
-If you have any feature request or feedback on this feel free to DM me on [Twitter](https://twitter.com/drewop) or mail me at <contact@bestcodes.de>
+If you have any feature request or feedback on this feel free to DM me on [Twitter](https://twitter.com/dev_drewop) or mail me at <contact@bestcodes.de>
 
 <br/>
 
