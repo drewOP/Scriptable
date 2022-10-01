@@ -36,4 +36,4 @@ Scriptable is an app that lets you add cool, lightweight widgets as well as auto
 <br/>
 
 ## ✍️ Feedback
-If you have any feature/widget request or feedback on this feel free to DM me on [Twitter](https://twitter.com/drewop) or mail me at <contact@bestcodes.de> 
+If you have any feature/widget request or feedback on this feel free to DM me on [Twitter](https://twitter.com/dev_drewop) or mail me at <contact@bestcodes.de> 
